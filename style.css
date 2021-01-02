@@ -1,0 +1,205 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'East Sea Dokdo', cursive;
+}
+
+/* my header */ 
+
+
+
+.navbar{
+
+  background-color: #385A65;
+  justify-content: space-between;
+ 
+
+}
+
+
+.navbar-brand{
+  margin-left: 20px;
+  color: #E8C9D9;
+  font-size: 50px;
+  font-weight: bold;
+}
+.logo{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-left: 50px;
+}
+
+.navbar-nav{
+
+  margin-left: auto;
+  margin-right: 70px;
+}
+.nav-link{
+  text-decoration: none;
+  color: #E8C9D9;
+  font-size:50px ;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nav-link:hover{
+  color:#F0525F;
+  text-decoration: underline;
+
+}
+
+.navbar-toggler-icon{
+
+  background-color: #acacac;
+
+
+}
+
+
+/* my main */
+
+main{
+  margin-top: 140px;
+}
+
+
+
+
+
+.card-body h1,h2,p{
+  margin-bottom: 12px;
+  color: #192E35;
+
+}
+.card-body h1{
+  font-size: 60px;
+}
+.card-body h2{
+  font-size: 35px;
+}
+.card-body p{
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.myimg{
+  width: 1000px;
+  height: 600px;
+  justify-content: flex-end;
+}
+
+button{
+  background-color: #192E35;;
+  padding: 10px 20px;
+  border-radius: 15%;
+  font-weight: bold;
+}
+button a { 
+  color: #acacac;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: #F0525F;
+}
+
+button a:hover { 
+  color:#192E35;
+}
+
+button:active {
+  background-color: #74000a;
+  padding: 2% 2%;
+}
+
+
+.myimg2{
+  width: 1000px;
+  height: 600px;
+  justify-content: flex-start;
+}
+
+.card-ar{
+  
+  font-family: 'Almarai';
+}
+
+.card-ar h1{
+  
+  font-size: 50px;
+}
+
+.card-ar h2{
+  
+  font-size: 30px;
+}
+
+
+
+/* my footer */
+
+
+.footerdiv {
+
+background-color: #385A65;
+
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+
+
+.footerdiv ul{
+  display: flex;
+  margin: 10px 20px;
+}
+
+
+.footerdiv li{
+  list-style: none;
+  margin: auto 50px;
+}
+
+
+
+.footerdiv p {
+color: #E8C9D9;
+font-size:50px ;
+font-weight: bold;
+margin: 10px 20px;
+}
+
+.footerdiv a{
+text-decoration: none;
+color: #E8C9D9;
+font-size:50px ;
+font-weight: bold;
+}
+
+.footerdiv a:hover{
+color:#F0525F;
+text-decoration: underline;
+
+} 
+
+
+@media (max-width:500px){
+
+  .footerdiv{
+    display: block;
+  }
+
+  .footerdiv li{
+    list-style: none;
+    margin: auto 30px;
+  }
+  
+
+}
